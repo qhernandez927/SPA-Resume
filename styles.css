@@ -1,8 +1,10 @@
-@media (max-width: 992px) {
+.jumbotron {
+  margin-bottom: auto;
 }
 
-@media (max-width: 768px) {
-}
-
-@media (max-width: 576px) {
+#music {
+  background-image: url(images/drums.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 500px;
 }
