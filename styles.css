@@ -1,3 +1,11 @@
+#img-quinn {
+  background-image: url(images/Quinn.jpg);
+  background-size: cover;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
 .jumbotron {
   margin-bottom: auto;
   margin-left: 2px;
