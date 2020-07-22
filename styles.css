@@ -1,11 +1,24 @@
 #img-quinn {
   background-image: url(images/Quinn.jpg);
   background-size: cover;
+  background-position: center;
   vertical-align: middle;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
+#bio {
+  background-image: url(images/light-leaks.JPG);
+  background-size: cover;
+  background-position: center;
+  vertical-align: middle;
+}
+
+#bio-text {
+  border-style: solid;
+  border: whitesmoke;
+}
+
 .jumbotron {
   margin-bottom: auto;
   margin-left: 2px;
@@ -14,6 +27,7 @@
 #music {
   background-image: url(images/drums.jpg);
   background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   min-height: 500px;
   margin-left: 5px;
