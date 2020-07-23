@@ -7,6 +7,7 @@
   height: 200px;
   border-radius: 50%;
 }
+
 #bio {
   background-image: url(images/light-leaks.JPG);
   background-size: cover;
@@ -33,4 +34,12 @@
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 5px;
+}
+
+#music-row {
+  padding-top: 75px;
+}
+
+.follow-button {
+  padding-left: 75px;
 }
