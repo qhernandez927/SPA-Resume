@@ -16,8 +16,8 @@
 }
 
 #bio-text {
-  border-style: solid;
-  border: whitesmoke;
+  border: 1px solid whitesmoke;
+  justify-content: center;
 }
 
 .jumbotron {
