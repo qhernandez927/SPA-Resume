@@ -38,8 +38,33 @@
 
 #music-row {
   padding-top: 75px;
+  padding-left: 75px;
 }
 
 .follow-button {
   padding-left: 75px;
+}
+
+.follow-button-sound-cloud {
+  padding-left: 75px;
+  font-size: 10px;
+  color: white;
+  line-break: anywhere;
+  word-break: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+    Garuda, Verdana, Tahoma, sans-serif;
+  font-weight: 100;
+}
+
+.quinncy-tag {
+  color: white;
+  text-decoration: none;
+}
+
+.sound-cloud-frame {
+  width: 250px;
+  height: 330px;
 }
