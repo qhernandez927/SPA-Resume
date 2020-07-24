@@ -15,9 +15,15 @@
   vertical-align: middle;
 }
 
+.bio-container {
+}
+
 #bio-text {
-  border: 1px solid whitesmoke;
+  opacity: 0.5;
+  background-color: whitesmoke;
+  border: 1px solid black;
   justify-content: center;
+  box-shadow: 5px 10px 8px #2e2d2d;
 }
 
 .jumbotron {
@@ -64,7 +70,12 @@
   text-decoration: none;
 }
 
+.iframe {
+  box-shadow: 5px 10px 8px #2e2d2d;
+}
+
 .sound-cloud-frame {
   width: 250px;
   height: 330px;
+  box-shadow: 5px 10px 8px #2e2d2d;
 }
