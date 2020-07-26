@@ -9,7 +9,8 @@
 }
 
 #bio {
-  background-image: url(images/light-leaks.JPG);
+  background-image: url(images/head-in-clouds.JPG);
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   vertical-align: middle;
@@ -17,26 +18,29 @@
 
 #bio-text {
   opacity: 0.5;
+  padding: 10px;
   background-color: whitesmoke;
   border: 1px solid black;
   justify-content: center;
   box-shadow: 5px 10px 8px #2e2d2d;
 }
 
-.jumbotron {
-  margin-bottom: auto;
-  margin-left: 2px;
-  margin-right: 2px;
+.bio-btn {
+  align-items: center;
 }
+.image-project {
+  background-image: url(images/code.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+
 #music {
   background-image: url(images/drums.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   min-height: 500px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
 }
 
 #music-row {
@@ -77,6 +81,9 @@
   box-shadow: 5px 10px 8px #2e2d2d;
 }
 
-.project-section {
+.image-project {
+  background-image: url(images/code.jpg);
+  background-position: center;
+  background-size: cover;
   min-height: 500px;
 }
