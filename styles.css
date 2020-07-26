@@ -12,7 +12,7 @@
   background-image: url(images/head-in-clouds.JPG);
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   vertical-align: middle;
 }
 
@@ -25,9 +25,6 @@
   box-shadow: 5px 10px 8px #2e2d2d;
 }
 
-.bio-btn {
-  align-items: center;
-}
 .image-project {
   background-image: url(images/code.jpg);
   background-position: center;
