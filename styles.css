@@ -36,8 +36,14 @@
   width: 300px;
   height: 200px;
 }
-.material-icon {
-  font-size: 48px;
+.code-icon {
+  height: 200px;
+  width: 300px;
+}
+
+.github-icon {
+  height: 200px;
+  width: 300px;
 }
 
 #music {
