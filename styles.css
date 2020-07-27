@@ -13,7 +13,7 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
-  vertical-align: middle;
+  vertical-align: center;
 }
 
 #bio-text {
@@ -30,6 +30,14 @@
   background-position: center;
   background-size: cover;
   min-height: 500px;
+}
+
+.LC101 {
+  width: 300px;
+  height: 200px;
+}
+.material-icon {
+  font-size: 48px;
 }
 
 #music {
