@@ -1,3 +1,8 @@
+html,
+body {
+  height: auto;
+  width: auto;
+}
 #img-quinn {
   background-image: url(images/Quinn.jpg);
   background-size: cover;
@@ -25,11 +30,17 @@
   box-shadow: 5px 10px 8px #2e2d2d;
 }
 
-.image-project {
+.code-cont {
   background-image: url(images/code.jpg);
   background-position: center;
   background-size: cover;
   min-height: 500px;
+}
+.code-row {
+  height: 100%;
+  align-items: center;
+}
+.code-col {
 }
 
 .LC101 {
@@ -44,6 +55,9 @@
 .github-icon {
   height: 200px;
   width: 300px;
+}
+.card-text {
+  text-align: center;
 }
 
 #music {
