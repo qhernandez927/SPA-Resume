@@ -11,6 +11,7 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  filter: drop-shadow(10px 10px 4px rgb(48, 46, 46));
 }
 
 #bio {
@@ -27,7 +28,7 @@ body {
   background-color: whitesmoke;
   border: 1px solid black;
   justify-content: center;
-  box-shadow: 5px 10px 8px #2e2d2d;
+  filter: drop-shadow(30px 10px 4px black);
 }
 
 .code-cont {
@@ -39,8 +40,10 @@ body {
 .code-row {
   height: 100%;
   align-items: center;
-}
-.code-col {
+  align-content: center;
+  padding-top: 75px;
+  padding-left: 75px;
+  filter: drop-shadow(30px 10px 4px black);
 }
 
 .LC101 {
@@ -48,12 +51,12 @@ body {
   height: 200px;
 }
 .code-icon {
-  height: 200px;
+  height: 150px;
   width: 300px;
 }
 
 .github-icon {
-  height: 200px;
+  height: 175px;
   width: 300px;
 }
 .card-text {
@@ -71,6 +74,7 @@ body {
 #music-row {
   padding-top: 75px;
   padding-left: 75px;
+  filter: drop-shadow(10px 10px 4px black);
 }
 
 .follow-button {
@@ -96,19 +100,7 @@ body {
   text-decoration: none;
 }
 
-.iframe {
-  box-shadow: 5px 10px 8px #2e2d2d;
-}
-
 .sound-cloud-frame {
   width: 250px;
   height: 330px;
-  box-shadow: 5px 10px 8px #2e2d2d;
-}
-
-.image-project {
-  background-image: url(images/code.jpg);
-  background-position: center;
-  background-size: cover;
-  min-height: 500px;
 }
