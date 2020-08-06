@@ -32,7 +32,7 @@
 <body>
 
   <!--Navbar Set Up-->
-  <nav class="navbar navbar-light bg-light mb-4 sticky-top">
+  <nav class="navbar  navbar-dark bg-dark mb-4 sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Navbar</a>
 
@@ -91,34 +91,36 @@
   </div>
   <hr>
   <div class="container-fluid code-cont">
-    <div class="row code-row">
-      <div class="code-col col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="images/LaunchCode.jpg" alt="Card image cap">
-          <hr>
-          <div class="card-body">
-            <p class="card-text">Launch Code stuff here
-            </p>
+    <div class="container-fluid flex">
+      <div class="row code-row">
+        <div class="code-col col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/LaunchCode.jpg" alt="Card image cap">
+            <hr>
+            <div class="card-body">
+              <p class="card-text">Launch Code stuff here
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="code-col col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-        <div class="card" style="width: 18rem">
-          <img class="code-icon card-img-top" src="images/code-black-18dp.svg">
-          <hr>
-          <div class="card-body">
-            <p class="card-text">button to the project page complete with gif will go here
-            </p>
+        <div class="code-col col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="card" style="width: 18rem">
+            <img class="code-icon card-img-top" src="images/code-black-18dp.svg">
+            <hr>
+            <div class="card-body">
+              <p class="card-text">button to the project page complete with gif will go here
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="code-col col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-        <div class="card" style="width: 18rem">
-          <img class="github-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
-          <hr>
-          <div class="card-body">
-            <p class="card-text">Git Hub Link
-            </p>
+        <div class="code-col col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="card" style="width: 18rem">
+            <img class="github-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+            <hr>
+            <div class="card-body">
+              <p class="card-text">Git Hub Link
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -257,20 +259,44 @@
 
 
   <!--footer/ contact-->
-  <footer class="page-footer font-small special-color-dark pt-4">
+  <footer class=" footie container-fluid page-footer font-small special-color-dark pt-4">
+    <div>
+      <h1>Contact Me</h1>
+    </div>
 
     <!-- Footer Elements -->
-    <div class="container">
-
-
+    <div class="row">
+      <div class="col col-left">
+        <form>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </form>
+      </div>
     </div>
+    <div class="row">
+      <div class="col col-left">
+        <form>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-left">
+        <form>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+
+
+
     <!-- Footer Elements -->
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <form>
 
-      </form>
     </div>
     <!-- Copyright -->
 

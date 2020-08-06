@@ -3,6 +3,7 @@ body {
   height: auto;
   width: auto;
 }
+
 #img-quinn {
   background-image: url(images/Quinn.jpg);
   background-size: cover;
@@ -26,23 +27,19 @@ body {
   opacity: 0.5;
   padding: 10px;
   background-color: whitesmoke;
-  border: 1px solid black;
   justify-content: center;
   filter: drop-shadow(30px 10px 4px black);
+  box-sizing: border-box;
 }
 
 .code-cont {
   background-image: url(images/code.jpg);
   background-position: center;
   background-size: cover;
-  min-height: 500px;
+  min-height: 200px;
 }
 .code-row {
-  height: 100%;
-  align-items: center;
-  align-content: center;
-  padding-top: 75px;
-  padding-left: 75px;
+  padding: 40px;
   filter: drop-shadow(30px 10px 4px black);
 }
 
@@ -72,8 +69,7 @@ body {
 }
 
 #music-row {
-  padding-top: 75px;
-  padding-left: 75px;
+  padding: 40px;
   filter: drop-shadow(10px 10px 4px black);
 }
 
@@ -103,4 +99,26 @@ body {
 .sound-cloud-frame {
   width: 250px;
   height: 330px;
+}
+
+input[type='text'],
+textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.footie {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+
+.col-left {
+  float: right;
+  width: 75%;
+  margin-top: 6px;
 }
