@@ -109,6 +109,7 @@ textarea {
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
+  margin-top: 10px;
 }
 
 .footie {
