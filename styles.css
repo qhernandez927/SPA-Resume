@@ -2,6 +2,7 @@ html,
 body {
   height: auto;
   width: auto;
+  background-color: black;
 }
 
 #img-quinn {
@@ -118,10 +119,6 @@ textarea {
   padding: 40px;
 }
 
-.contact {
-  color: white;
-}
-
 .copyright {
   color: white;
 }
@@ -132,8 +129,7 @@ textarea {
   margin-top: 6px;
 }
 
-/* .col-right {
-  float: right;
-  width: 75%;
-  margin-top: 6px;
-} */
+#header {
+  color: white;
+  /* border: 1px solid white; */
+}
