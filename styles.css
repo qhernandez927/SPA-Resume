@@ -33,6 +33,10 @@ body {
   box-sizing: border-box;
 }
 
+.card {
+  margin: auto;
+}
+
 .code-cont {
   background-image: url(images/code.jpg);
   background-position: center;
