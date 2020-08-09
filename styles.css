@@ -102,8 +102,7 @@ body {
   height: 330px;
 }
 
-input[type='text'],
-textarea {
+.form-control {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -117,6 +116,7 @@ textarea {
   background-color: black;
   border-radius: 5px;
   padding: 40px;
+  color: white;
 }
 
 .copyright {
