@@ -33,6 +33,7 @@ body {
   justify-content: center;
   filter: drop-shadow(30px 10px 4px black);
   box-sizing: border-box;
+  margin: auto;
 }
 
 .card {
