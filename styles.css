@@ -36,6 +36,10 @@ body {
   margin: auto;
 }
 
+.carousel-item .img-fluid {
+  height: 700px;
+}
+
 .card {
   margin: auto;
 }
