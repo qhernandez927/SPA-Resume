@@ -2,7 +2,6 @@ console.log('Im working');
 
 $(document).ready(function() {
   $('.submit').click(function(event) {
-    event.preventDefault();
     console.log('Clicked Button');
 
     let firstName = document.getElementById('form_name');
@@ -16,11 +15,13 @@ $(document).ready(function() {
       email.value.includes('.')
     ) {
     } else {
+      event.preventDefault();
       alert('Email is not valid');
     }
 
     if (message.value.length >= 10) {
     } else {
+      event.preventDefault();
       alert('Message is not valid');
     }
   });
