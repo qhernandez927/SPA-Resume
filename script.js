@@ -11,7 +11,7 @@ $(document).ready(function() {
     let email = document.getElementById('form_email');
 
     if (
-      email.value.length > 5 &&
+      email.value.length >= 5 &&
       email.value.includes('@') &&
       email.value.includes('.')
     ) {
@@ -19,7 +19,7 @@ $(document).ready(function() {
       alert('Email is not valid');
     }
 
-    if (message.value.length > 20) {
+    if (message.value.length >= 10) {
     } else {
       alert('Message is not valid');
     }
