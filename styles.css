@@ -141,6 +141,10 @@ body {
   /* border: 1px solid white; */
 }
 
+#icon {
+  font-size: 50px;
+}
+
 #footer-text {
   /* opacity: 0.5; */
   padding: 20px;
@@ -150,4 +154,5 @@ body {
   margin: auto;
   color: black;
   border-radius: 10px;
+  height: 400px;
 }
