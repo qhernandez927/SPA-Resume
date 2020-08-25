@@ -28,7 +28,7 @@ body {
 
 #bio-text {
   opacity: 0.5;
-  padding: 10px;
+  padding: 20px;
   background-color: whitesmoke;
   justify-content: center;
   filter: drop-shadow(30px 10px 4px black);
@@ -142,10 +142,12 @@ body {
 }
 
 #footer-text {
-  opacity: 0.5;
-  padding: 10px;
-  background-color: whitesmoke;
+  /* opacity: 0.5; */
+  padding: 20px;
+  background-color: white;
   justify-content: center;
   box-sizing: border-box;
   margin: auto;
+  color: black;
+  border-radius: 10px;
 }
