@@ -1,11 +1,7 @@
-console.log('Im working');
-
 $(document).ready(function() {
   $('.submit').click(function(event) {
     console.log('Clicked Button');
 
-    let firstName = document.getElementById('form_name');
-    let lastName = document.getElementById('form_lastName');
     let message = document.getElementById('form_message');
     let email = document.getElementById('form_email');
 
