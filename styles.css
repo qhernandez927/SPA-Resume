@@ -26,6 +26,12 @@ body {
   vertical-align: center;
 }
 
+.bio-btn {
+  margin-left: 300px;
+  filter: drop-shadow(10px 10px 4px rgb(48, 46, 46));
+  color: black;
+}
+
 #bio-text {
   opacity: 0.5;
   padding: 20px;
@@ -80,6 +86,10 @@ body {
 #music-row {
   padding: 40px;
   filter: drop-shadow(10px 10px 4px black);
+}
+.iframe {
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .follow-button {
