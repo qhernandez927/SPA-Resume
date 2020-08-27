@@ -27,7 +27,6 @@ body {
 }
 
 .bio-btn {
-  margin-left: 300px;
   filter: drop-shadow(10px 10px 4px rgb(48, 46, 46));
   color: black;
 }
@@ -37,7 +36,7 @@ body {
   padding: 20px;
   background-color: whitesmoke;
   justify-content: center;
-  filter: drop-shadow(30px 10px 4px black);
+  filter: drop-shadow(10px 10px 4px black);
   box-sizing: border-box;
   margin: auto;
 }
@@ -85,15 +84,17 @@ body {
 
 #music-row {
   padding: 40px;
+  padding-left: 45px;
   filter: drop-shadow(10px 10px 4px black);
 }
 .iframe {
   margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .follow-button {
   padding-left: 75px;
+  margin-bottom: 10px;
 }
 
 .follow-button-sound-cloud {
