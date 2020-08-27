@@ -42,6 +42,7 @@ body {
 
 .card {
   margin: auto;
+  margin-bottom: 50px;
 }
 
 .code-cont {
@@ -51,8 +52,8 @@ body {
   min-height: 200px;
 }
 .code-row {
-  padding: 40px 5px;
-  filter: drop-shadow(30px 10px 4px black);
+  padding: 40px 0px;
+  filter: drop-shadow(10px 10px 4px black);
 }
 
 .code-icon {
