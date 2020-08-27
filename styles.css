@@ -161,6 +161,7 @@ body {
   justify-content: center;
   box-sizing: border-box;
   margin: auto;
+  margin-top: 40px;
   color: black;
   border-radius: 10px;
   height: 100px;
