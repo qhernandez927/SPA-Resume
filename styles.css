@@ -51,7 +51,7 @@ body {
   min-height: 200px;
 }
 .code-row {
-  padding: 40px;
+  padding: 40px 5px;
   filter: drop-shadow(30px 10px 4px black);
 }
 
