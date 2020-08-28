@@ -167,14 +167,12 @@ body {
 }
 
 #footer-text {
-  /* opacity: 0.5; */
   padding: 20px;
   background-color: white;
   justify-content: center;
   box-sizing: border-box;
   margin: auto;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   color: black;
   border-radius: 10px;
-  height: 100px;
 }
