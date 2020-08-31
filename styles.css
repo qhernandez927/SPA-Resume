@@ -74,6 +74,10 @@ ul .card-text {
   text-align: center;
 }
 
+.other-card {
+  text-align: center;
+}
+
 #music {
   background-image: url(images/drums.jpg);
   background-attachment: fixed;
