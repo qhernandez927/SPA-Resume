@@ -70,7 +70,7 @@ body {
   height: 175px;
   width: 300px;
 }
-.card-text {
+ul .card-text {
   text-align: center;
 }
 
